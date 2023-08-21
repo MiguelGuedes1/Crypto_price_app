@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.backgroundImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("/src/Assets/bitcoin3.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  display: flex;
+  align-items: flex-start;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.aplicacao_moeda {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3.5rem;
+  color: #fff;
+  padding: 0 5rem;
+}
+
+.procurar_moeda {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.titulo_app {
+  margin-bottom: 32px;
+  text-align: center;
+  animation: cima_baixo 3s infinite;
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes cima_baixo {
+
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    transform: translateY(-20px);
   }
+}
+
+
+.input_moeda {
+  margin-bottom: 4rem;
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-image: linear-gradient(-225deg,
+      #ff5733 0%,
+      /* Vermelho */
+      #ff8c33 48%,
+      /* Laranja */
+      #ffbb33 100%);
+  /* Amarelo-alaranjado */
+
+  color: #e2e2e2;
+}
+
+
+.input_moeda::placeholder {
+  color: #e2e2e2;
 }

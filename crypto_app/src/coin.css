@@ -1,0 +1,108 @@
+.contentor_moeda {
+    display: flex;
+}
+
+.apresentacao_moedas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4.8rem;
+}
+
+.moeda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+
+
+}
+
+.moeda h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+
+.moeda img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.simbolo_moeda {
+    display: none;
+    text-transform: uppercase;
+}
+
+.moeda-data {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.moeda-price {
+    width: 150px;
+    color: goldenrod;
+
+}
+
+.moeda-price span {
+    font-weight: bold;
+
+}
+
+.moeda-volume {
+    width: 200px;
+    color: white;
+    color: goldenrod;
+}
+
+.moeda-volume span {
+    font-weight: bold;
+}
+
+.valor_de_mercado {
+    width: 150px;
+    color: goldenrod;
+}
+
+.valor_de_mercado span {
+    font-weight: bold;
+}
+
+.percentagem_moeda {
+    width: 94px;
+    color: goldenrod;
+}
+
+.percentagem_moeda span {
+    font-weight: bold;
+}
+
+.vermelho {
+    color: #f00606;
+}
+
+.verde {
+    color: #11d811;
+}
+
+.preco_maximo_nas_ultimas_24h {
+    width: 250px;
+    color: goldenrod;
+
+}
+
+.preco_maximo_nas_ultimas_24h span {
+    font-weight: bold;
+
+}

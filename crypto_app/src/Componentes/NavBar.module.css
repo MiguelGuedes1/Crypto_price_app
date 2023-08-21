@@ -1,0 +1,53 @@
+/* NavBar.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar {
+    margin-top: 1.8rem;
+    margin-right: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.links_list {
+    display: flex;
+    list-style: none;
+
+}
+
+.links_list li {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+
+}
+
+.links {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: .4s;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.links::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: transparent;
+    transition: transform .4s, background-color .4s;
+    transform: scaleX(0);
+    transform-origin: left center;
+}
+
+.links:hover::after {
+    background-color: #bbb;
+    transform: scaleX(1);
+}
