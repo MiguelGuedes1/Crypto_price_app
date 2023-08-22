@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from "./NavBar.module.css";
-import { FaGithub, FaLinkedin,FaLink } from 'react-icons/fa';
+import { FaGithub, FaLinkedin,FaLink,FaBitcoin } from 'react-icons/fa';
 
 export const NavBar = () => {
   
     return (
         <div className={styles.navbar}>
+
+            <span className={styles.logo}><FaBitcoin/> CoinVision <FaBitcoin/></span>
 
             <ul className={styles.links_list}>
                 <li className={styles.links}>

@@ -66,7 +66,7 @@
 
 
 .input_moeda {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   padding-left: 16px;
   width: 300px;
   height: 50px;
@@ -86,4 +86,38 @@
 
 .input_moeda::placeholder {
   color: #e2e2e2;
+}
+
+
+
+
+
+
+
+/* Media queries */
+
+
+@media (max-width: 697px) {
+  .titulo_app {
+    font-size: 2rem;
+  }
+
+  .input_moeda {
+    width: 250px;
+    font-size: 0.8rem;
+
+  }
+}
+
+/* Dispositivos móveis (largura até 480px) */
+@media (max-width: 480px) {
+  .titulo_app {
+    font-size: 1.7rem;
+  }
+
+  .input_moeda {
+    width: 215px;
+    font-size: 0.6rem;
+
+  }
 }

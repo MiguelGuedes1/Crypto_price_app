@@ -48,7 +48,7 @@ const coin = ({
             <span>Valor de mercado</span> €{valor_de_mercado.toLocaleString()}
           </p>
           <p className='preco_maximo_nas_ultimas_24h'>
-            <span>Preço máximo últimas 24h</span> €{preco_maximo_nas_ultimas_24h}
+            <span>Preço máximo últimas 24h </span> €{preco_maximo_nas_ultimas_24h}
           </p>
         </div>
       </div>
@@ -57,3 +57,8 @@ const coin = ({
 };
 
 export default coin;
+
+
+
+
+

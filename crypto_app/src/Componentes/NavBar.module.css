@@ -1,5 +1,6 @@
 /* NavBar.module.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins&display=swap');
 
 .navbar {
     margin-top: 1.8rem;
@@ -8,6 +9,15 @@
     justify-content: flex-end;
     align-items: center;
     font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    position: absolute;
+    left: 1.5rem;
+    top: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    color: whitesmoke;
 }
 
 .links_list {
@@ -50,4 +60,36 @@
 .links:hover::after {
     background-color: #bbb;
     transform: scaleX(1);
+}
+
+
+
+
+
+/* Media queries */
+
+
+@media (max-width: 697px) {
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    .links_list li {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+/* Dispositivos móveis (largura até 480px) */
+@media (max-width: 391px) {
+    .logo {
+        font-size: 0.9rem;
+    }
+
+    .links_list li {
+        font-size: 0.9rem;
+    }
 }

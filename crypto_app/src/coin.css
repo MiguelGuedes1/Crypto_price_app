@@ -106,3 +106,84 @@
     font-weight: bold;
 
 }
+
+
+
+
+
+/* Media queries */
+
+
+@media (max-width: 1054px) {
+    .apresentacao_moedas {
+        margin-bottom: 2.4rem;
+    }
+
+    .moeda {
+        margin-bottom: 1.2rem;
+    }
+
+    .moeda h1 {
+        font-size: 1.1rem;
+    }
+
+    .moeda img {
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .moeda-data {
+        gap: 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .moeda-price {
+        width: auto;
+    }
+
+    .moeda-volume {
+        width: auto;
+    }
+
+    .valor_de_mercado {
+        width: auto;
+    }
+
+    .percentagem_moeda {
+        width: auto;
+    }
+
+    .preco_maximo_nas_ultimas_24h {
+        width: auto;
+    }
+}
+
+/* Dispositivos móveis (largura até 480px) */
+@media (max-width: 480px) {
+    .moeda h1 {
+        font-size: 1rem;
+    }
+
+    .moeda img {
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    .moeda-data {
+        gap: 1.5rem;
+    }
+
+    .moeda-price,
+    .moeda-volume,
+    .valor_de_mercado,
+    .percentagem_moeda,
+    .preco_maximo_nas_ultimas_24h {
+        width: 100%;
+        text-align: center;
+    }
+
+    .preco_maximo_nas_ultimas_24h {
+        font-size: 0.9rem;
+    }
+}
