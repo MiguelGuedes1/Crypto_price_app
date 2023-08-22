@@ -7,7 +7,7 @@ export const NavBar = () => {
     return (
         <div className={styles.navbar}>
 
-            <span className={styles.logo}><FaBitcoin/> CoinVision <FaBitcoin/></span>
+            <span className={styles.logo}><FaBitcoin/> Coin<span className={styles.logovision}>Vision</span> <FaBitcoin/></span>
 
             <ul className={styles.links_list}>
                 <li className={styles.links}>

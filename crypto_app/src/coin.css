@@ -159,7 +159,11 @@
     }
 }
 
-/* Dispositivos móveis (largura até 480px) */
+
+
+
+
+
 @media (max-width: 480px) {
     .moeda h1 {
         font-size: 1rem;

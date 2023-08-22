@@ -109,7 +109,7 @@
   }
 }
 
-/* Dispositivos móveis (largura até 480px) */
+
 @media (max-width: 480px) {
   .titulo_app {
     font-size: 1.7rem;

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins&display=swap');
 
+
 .navbar {
     margin-top: 1.8rem;
     margin-right: 1.8rem;
@@ -17,8 +18,14 @@
     top: 2rem;
     font-family: "Montserrat", sans-serif;
     font-size: 1.3rem;
-    color: whitesmoke;
+    color: #ff8c33
 }
+
+.logovision {
+    font-family: "Poppins", sans-serif;
+    color: #ffbb33;
+}
+
 
 .links_list {
     display: flex;
@@ -83,7 +90,7 @@
 
 
 
-/* Dispositivos móveis (largura até 480px) */
+
 @media (max-width: 391px) {
     .logo {
         font-size: 0.9rem;
